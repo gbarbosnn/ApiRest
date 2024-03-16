@@ -45,7 +45,7 @@ describe('Transactions', () => {
         expect(listTransactionsResponse.body.transactions).toEqual([
             expect.objectContaining({
                 title: 'New transaction',
-                Amount: 5000,
+                amount: 5000,
             }),
         ])
     })
