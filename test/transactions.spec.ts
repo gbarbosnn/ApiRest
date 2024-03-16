@@ -2,7 +2,6 @@ import { expect, describe, it, beforeAll, afterAll, beforeEach } from 'vitest'
 import request from 'supertest'
 import { app } from '../src/app'
 import { execSync } from 'node:child_process'
-import { get } from 'node:http'
 
 describe('Transactions', () => {
     beforeAll(async () => {

@@ -1,4 +1,13 @@
+#dependencies
 /node_modules
-/src/database/database.sqlite
+
+#database
+/database/*.db
+
+
+#Env
 .env
 .env.test
+
+#build
+/build
